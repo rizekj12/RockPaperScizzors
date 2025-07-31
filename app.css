@@ -1,0 +1,10 @@
+h1 {
+    color: #ff0000;
+    text-align: center;
+}
+
+.Buttons_Div {
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
+}
