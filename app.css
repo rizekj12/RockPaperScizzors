@@ -1,6 +1,12 @@
 h1 {
-    color: #ff0000;
-    text-align: center;
+  color: #ff0000;
+  text-align: center;
+}
+
+.Header_Div {
+  display: flex;
+  align-items: center; /* Vertically center */
+  justify-content: center; /* Horizontally center */
 }
 
 .Buttons_Div {

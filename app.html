@@ -1,20 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="app.css"> 
-</head>
-<body>
-    
-<h1>Rock, Paper, Scizzors</h1>
+    <link rel="stylesheet" href="app.css" />
+  </head>
 
-<div class="Buttons_Div">
-<button>Rock</button>
-<button>Paper</button>
-<button>Scizzors</button>
-</div>
+  <body>
+    <div class="Header_Div">
+      <h1 id="Rock">Rock</h1>
+      <h1 id="Paper">&nbsp;Paper</h1>
+      <h1 id="Scissors">&nbsp;Scissors</h1>
+    </div>
 
-</body>
+    <div class="Buttons_Div">
+      <button onclick="change_color('Rock', 'black')">Rock</button>
+      <button onclick="change_color('Paper', 'black')">Paper</button>
+      <button onclick="change_color('Scissors', 'black')">Scissors</button>
+    </div>
+    <script src="app.js"></script>
+  </body>
 </html>
